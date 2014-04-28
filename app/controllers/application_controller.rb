@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
   protected
 
   def set_locale
-    if %w{en de}.include?( params[:locale] )
+    if %w{en de bg}.include?( params[:locale] )
       I18n.locale = params[:locale]
     else
       I18n.locale = 'en'
