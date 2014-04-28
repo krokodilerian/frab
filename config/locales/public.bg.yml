@@ -1,0 +1,70 @@
+bg:
+  time:
+    formats:
+      time: "%H:%M"
+
+  public:
+    schedule:
+      title: "График %{title}"
+
+      nav:
+        index: "Индекс"
+        day: "Ден %{index}"
+        schedule: "Разписание"
+        speakers: "Лектори"
+        events: "Лекции"
+
+      index:
+        schedule_index: "Главна страница на графика"
+        day: "Ден %{index} – %{label}"
+        schedule: "График – %{label}"
+        speakers: "Лектори"
+        events: "Лекции"
+
+      day:
+        schedule_for_day: "График за ден %{index} – %{label}"
+        schedule: "График – %{label}"
+
+      speakers:
+        speakers: "Лектори"
+        name: "Име"
+        events: "Лекции"
+
+      events:
+        events: "Лекции"
+        title: "Заглавие"
+        track: "Поток"
+        speakers: "Лектори"
+
+      event:
+        info: "Информация"
+        day: "Ден"
+        start_time: "Начален час"
+        language: "Език"
+        duration: "Продължителност"
+        track: "Поток"
+        links: "Връзки"
+        files: "Файлове"
+        feedback: "Обратна връзка"
+        feedback_link: "Кажете ни дали лекцията Ви хареса."
+        speakers: "Лектори"
+
+      speaker:
+        speaker: "Лектор"
+        contact: "За връзка"
+        email: "E-Mail"
+        links: "връзки"
+        events_in_this_conference: "Лекции на тази конференция"
+
+    feedback:
+      new:
+        feedback_for: "Обратна връзка за: %{title}"
+        please_let_us_know: "Отбележете мнението си за лекцията:"
+        how_would_you_rate: "Каква оценка бихте дали на лекцията? 5 е най-високата, 1 - най-слабата."
+        what_did_you_like: "Какво ви хареса, какво не? Как би могла да се подобри лекцията?"
+        submit_feedback: "Изпрати"
+
+      thank_you:
+        thank_you: "Thank you!"
+        thank_you_for_helping_us: "Благодарим ви за информацията. Обратната връзка ни помага много, за да подобрим събитията, които организираме. Моля, подайте обратна връзка за колкото можете от лекциите, на които сте присъствали. Ако сте гледали online на живо, кажете ни как е било качеството."
+        return: "Назад към графика"

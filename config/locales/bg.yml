@@ -1,0 +1,86 @@
+
+bg:
+  add_association: "Добави %{name}"
+  remove_association: "Премахни %{name}"
+  your_submission: "Вашата заявка"
+  edit: "редактиране"
+  actions: "Действия"
+  error_signing_in: "Грешен email или парола."
+  sign_in_successful: "Успешно влизане."
+
+  settings: "Настройки"
+
+  create_your_first_conference: "Създайте първата си конференция"
+  new_conference: "Нова конференция"
+  edit_conference: "Редакция на конференция"
+  edit_conference_days: "Редакция на дните"
+  edit_conference_tracks: "Редакция на потоците"
+  edit_conference_rooms: "Редакция на залите"
+  edit_conference_schedule: "Редакция на разписанието"
+  edit_ticket_server: "Редакция на ticket server"
+
+  basic_information: "Базова информация"
+  event_languages: "Езици"
+  days: "Дни"
+  tracks: "Потоци"
+  rooms: "Зали"
+  ticket_server: "Ticket Server"
+
+  notifications: Notifications
+
+  ability:
+    denied: "Действиетео не е позволено."
+
+  conflict:
+    events_overlap: "се припокрива с"
+    has_no_availability: "Не е въвел(а) кога е свободен/свободна."
+    person_unavailable: "не е достъпен/достъпна по зададеното време."
+  time:
+    formats:
+      pretty_datetime: "%Y-%m-%d %H:%M"
+      short_datetime: '%d. %H:%M'
+      month_datetime: '%d. %b %H:%M'
+    time_range_seperator: ' до '
+  options:
+    lecture: "лекция"
+    workshop: "workshop"
+    podium: "podium"
+    lightning_talk: "lightning talk"
+    meeting: "среща"
+    other: "други"
+    male: "мъж"
+    female: "жена"
+    fax: "факс"
+    phone: "телефон"
+    mobile: "мобилен телефон"
+    private: "личен"
+    business: "работен"
+    skype: "skype"
+    secretary: "secretary"
+  activerecord:
+    models:
+      conference: "конференция"
+      conference_user: "потребители на конференцията"
+      day: "ден"
+      event: "лекция"
+      person: "профил"
+      event_person: "човек"
+      language: "език"
+      link: "връзка"
+      notification: "Известяване"
+      im_account: "IM account"
+      phone_number: "телефонен номер"
+      event_attachment: "файл"
+      language: "език"
+      track: "поток"
+      room: "зала"
+    attributes:
+      conference:
+        email: "E-Mail"
+      event:
+        title: "Заглавие"
+        state: "state"
+  mailers:
+    user_mailer:
+      confirmation_instructions: "Активиране на account"
+      password_reset_instructions: "Reset на парола"
